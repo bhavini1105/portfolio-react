@@ -33,14 +33,14 @@ function Contact() {
                         </div>
                         {/* Contact Details */}
                         <div className="col-md-6 d-flex flex-column justify-content-center text-white">
-                        
+
                             <p>📧bhavinipatel7532@gmail.com</p>
                             <p>📞+91 95101 09252</p>
                             <p>📍 At. Sarpore, Post-Pardi, Ta &amp; Dist - Navsari </p>
                             <div className="social-icons mt-3">
-                                <a href="#"><i className="bi bi-github" /></a>
-                                <a href="#"><i className="bi bi-linkedin" /></a>
-                                <a href="#"><i className="bi bi-facebook" /></a>
+                                <a href="https://github.com/bhavini1105"><i className="bi bi-github" /></a>
+                                <a href="https://www.linkedin.com/in/bhavini-patel-94823b2a8/"><i className="bi bi-linkedin" /></a>
+                                <a href="https://www.facebook.com/bhavini.bhavini.96995"><i className="bi bi-facebook" /></a>
                             </div>
                         </div>
                     </div>

@@ -30,15 +30,23 @@ const coder = {
                         <h1 className="highlight-blue">This is <span className="highlight-pink">BHAVINI PATEL</span>,<br />I'm a Professional
                             <span className="highlight-green"><br />Web Developer</span>.</h1>
                         <div className="social-icons my-4">
-                            <i className="bi bi-github" />
-                            <i className="bi bi-linkedin" />
-                            <i className="bi bi-facebook" />
+                            <a href="https://github.com/bhavini1105"><i className="bi bi-github" /></a>
+                            <a href="https://www.linkedin.com/in/bhavini-patel-94823b2a8/"><i className="bi bi-linkedin" /></a>
+                            <a href="https://www.facebook.com/bhavini.bhavini.96995"><i className="bi bi-facebook" /></a>
 
                         </div>
                         <div className="mt-3">
                             <button className="btn btn-outline-light me-2">
                                 <Link class="nav-link" to="/contact">  CONTACT ME 👤 </Link> </button>
-                            <button className="btn btn-gradient">GET RESUME 📄</button>
+                            <button className="btn btn-gradient"><a
+                                href="/resumer.jpg"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn-gradient"
+                            >
+                                GET RESUME 📄
+                            </a>
+                            </button>
                         </div>
                     </div>
                     {/* Right Side */}
