@@ -6,7 +6,7 @@ function Contact() {
 
             <div>
                 <div className="container py-5">
-                    <h2 className="text-success mb-4 fw-bold">Quick Ways to Get Connected</h2>
+                    <h2 className="text-success mb-4 fw-bold">Quickly Get Connected</h2>
                     <div className="row">
                         <div className="col-md-6 d-flex flex-column justify-content-center text-white gap-3 fs-5">
 
