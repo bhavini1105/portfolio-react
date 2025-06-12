@@ -62,7 +62,7 @@ body {
   cursor: pointer;
 }
 
-.list-unstyled{
+.list-unstyled {
   font-size: 18px;
 }
 
@@ -131,7 +131,7 @@ body {
   background-color: #11152e;
   border-radius: 10px;
   padding: 30px;
-  color:white;
+  color: white;
 }
 
 .send-btn {
@@ -143,7 +143,7 @@ body {
   background: linear-gradient(to right, #9333ea, #7e22ce);
 }
 
-.social-icons a  {
+.social-icons a {
   color: #ccc !important;
   margin: 0 8px;
   font-size: 1.5rem;
@@ -177,56 +177,76 @@ body {
 }
 
 
-    h2.section-title {
-      color: #00ffe1;
-      font-weight: bold;
-      text-align: center;
-      letter-spacing: 2px;
-      animation: fadeIn 1.5s ease-in-out;
-    }
+h2.section-title {
+  color: #00ffe1;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+  animation: fadeIn 1.5s ease-in-out;
+}
 
-    .card {
-      transition: transform 0.3s, box-shadow 0.3s;
-      border: none;
-      border-radius: 10px;
-    }
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: none;
+  border-radius: 10px;
+}
 
-    .card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 10px 20px rgba(0, 255, 225, 0.2);
-    }
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 255, 225, 0.2);
+}
 
-    .card-img-top {
-      object-fit: cover;
-      height: 200px;
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
-    }
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
 
-    .btn-primary {
-      background: linear-gradient(45deg, #00ffe1, #7700ff);
-      border: none;
-    }
+.btn-primary {
+  background: linear-gradient(45deg, #00ffe1, #7700ff);
+  border: none;
+}
 
-    .btn-outline-dark {
-      color: #fff;
-      border-color: #00ffe1;
-    }
+.btn-outline-dark {
+  color: #fff;
+  border-color: #00ffe1;
+}
 
-    .btn-outline-dark:hover {
-      background-color: #00ffe1;
-      color: #000;
-    }
+.btn-outline-dark:hover {
+  background-color: #00ffe1;
+  color: #000;
+}
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(-10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
 
-    .card-title {
-      color: #00ffe1;
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-    a {
-      text-decoration: none;
-    }
+.card-title {
+  color: #00ffe1;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.btn-outline-success:hover {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-lg i {
+  transition: transform 0.2s ease;
+}
+
+.btn-lg:hover i {
+  transform: scale(1.2);
+}

@@ -6,45 +6,58 @@ function Contact() {
 
             <div>
                 <div className="container py-5">
-                    <h4 className="text-success mb-4">CONTACT WITH ME</h4>
+                    <h2 className="text-success mb-4 fw-bold">Quick Ways to Get Connected</h2>
                     <div className="row">
-                        {/* Contact Form */}
-                        <div className="col-md-6">
-                            <div className="contact-form">
-                                <p>If you have any questions or concerns, please don't hesitate to contact me. I am open to any work opportunities that align with my skills and interests.</p>
-                                <form>
-                                    <div className="mb-3">
-                                        <label className="form-label">Your Name:</label>
-                                        <input type="text" className="form-control bg-dark text-white border-0" />
-                                    </div>
-                                    <div className="mb-3">
-                                        <label className="form-label">Your Email:</label>
-                                        <input type="email" className="form-control bg-dark text-white border-0" />
-                                    </div>
-                                    <div className="mb-3">
-                                        <label className="form-label">Your Message:</label>
-                                        <textarea rows={4} className="form-control bg-dark text-white border-0" defaultValue={""} />
-                                    </div>
-                                    <button type="submit" className="btn send-btn text-white px-4">
-                                        SEND MESSAGE <i className="fas fa-paper-plane ms-2" />
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
-                        {/* Contact Details */}
-                        <div className="col-md-6 d-flex flex-column justify-content-center text-white">
+                        <div className="col-md-6 d-flex flex-column justify-content-center text-white gap-3 fs-5">
 
-                            <p>📧bhavinipatel7532@gmail.com</p>
-                            <p>📞+91 95101 09252</p>
-                            <p>📍 At. Sarpore, Post-Pardi, Ta &amp; Dist - Navsari </p>
-                            <div className="social-icons mt-3">
-                                <a href="https://github.com/bhavini1105"><i className="bi bi-github" /></a>
-                                <a href="https://www.linkedin.com/in/bhavini-patel-94823b2a8/"><i className="bi bi-linkedin" /></a>
-                                <a href="https://www.facebook.com/bhavini.bhavini.96995"><i className="bi bi-facebook" /></a>
+                            {/* Email Button */}
+                            <div>
+                                <i className="bi bi-envelope-fill me-2 text-info"></i>
+                                <strong>Email:</strong>
+                                <a
+                                    href="mailto:bhavinipatel7532@gmail.com"
+                                    className="btn btn-sm btn-outline-success ms-2"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Send Email
+                                </a>
                             </div>
+
+                            {/* Phone */}
+                            <div>
+                                <i className="bi bi-telephone-fill me-2 text-danger"></i>
+                                <strong>Call:</strong>
+                                <a href="tel:+919510109252" className="text-white text-decoration-none ms-2">
+                                    +91 95101 09252
+                                </a>
+                            </div>
+
+
+                            {/* LinkedIn */}
+                            <div>
+                                <a
+                                    href="https://www.linkedin.com/in/bhavini-patel-94823b2a8/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="btn btn-primary btn-lg mt-3 d-inline-flex align-items-center"
+                                >
+                                    <i className="bi bi-linkedin me-2 fs-4"></i>
+                                    Connect on LinkedIn
+                                </a>
+                            </div>
+
+                            {/* Location */}
+                            {/* <div>
+                                <i className="bi bi-geo-alt-fill me-2 text-warning"></i>
+                                <strong>I'm From:</strong>
+                                <span className="ms-2">Navsari, Gujarat, India</span>
+                            </div> */}
+
                         </div>
                     </div>
                 </div>
+
                 {/* Side Tab */}
                 <div className="side-tab">CONTACT</div>
             </div>
