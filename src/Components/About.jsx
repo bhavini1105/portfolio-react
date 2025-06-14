@@ -18,8 +18,7 @@ function About() {
                         </p>
                         <ul className="list-unstyled">
                             <li className="mb-3"><strong>💼Skills:</strong> HTML, CSS, JavaScript, React, Node.js</li>
-                            <li className="mb-3"><strong>🎓 Education:</strong> B.E. in Computer Engineering, S S Agrawal College (2022 –
-                                Present)</li>
+                            <li className="mb-3"><strong>🎓 Education:</strong> B.E. in Computer Engineering, S S Agrawal College (2018 – 2022)</li>
                             <li className="mb-3"><strong>💬 Soft Skills:</strong> Good communicator, team player, always eager to learn new tools
                                 and technologies</li>
                             <li className="mb-3"><strong>📧 Email:</strong> bhavinipatel7532@gmail.com</li>
